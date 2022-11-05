@@ -1,8 +1,11 @@
-#include <iostream>
+#include <cstdio>
 using namespace std;
-int main() {
-    int a,b;
-    cin>>a>>b;
-    cout<<a+b<<endl;
+
+int main(){
+    long long N,M;
+    scanf("%lld %lld",&N,&M);
+    
+    printf("%lld\n",N*(M+1));
+    
     return 0;
 }
